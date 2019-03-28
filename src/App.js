@@ -6,9 +6,7 @@ class App extends Component {
   render() {
     return (
       <Fragment>
-        <div className="table-row ">
-          <div className="text alright  "> <button>click</button></div>
-        </div>
+   
 
         <div className="container-fluid" >
           {/* <div className="table-row "></div>
@@ -33,13 +31,13 @@ class App extends Component {
               <option value="11">Toyota</option>
               <option value="12">Volvo</option>
             </select></div>
-            <div className="text"><input type="text"></input></div>
-            <div className="text"><input type="text"></input></div>
-            <div className="text">hi</div>
+            <div className="text"><input type="num"></input></div>
+            <div className="text"><input type="num"></input></div>
+            <div className="text">icon</div>
           </div>
           <div className="table-row">
             <div className="text"></div>
-            <div className="text colspan2">colspan 2 <input type="text"></input></div>
+            <div className="text colspan2"><textarea></textarea></div>
             <div className="text"></div>
           </div>
           <div className="table-row">
